@@ -1,0 +1,193 @@
+{
+  "header": {
+    "topBar": "TBILISI: TEAM ARRIVES WITHIN 1 HOUR OF BOOKING",
+    "brand": "CLEANING TECHNOLOGY",
+    "tagline": "Professional cleaning",
+    "phone": "+995 595 779 997",
+    "langLabel": "Switch language"
+  },
+  "footer": {
+    "brand": "CLEANING TECHNOLOGY",
+    "tagline": "Professional cleaning. Modern technology.",
+    "phone": "+995 595 779 997",
+    "copyright": "Cleaning Technology. All rights reserved.",
+    "location": "Tbilisi, Georgia"
+  },
+  "hero": {
+    "location": "TBILISI • PREMIUM CLEANING",
+    "titlePart1": "COMPREHENSIVE SOLUTIONS FOR ",
+    "titleAccent": "PERFECT CLEANLINESS",
+    "titlePart2": "",
+    "description": "Modern equipment, certified cleaners, and a mobile team that arrives fully prepared for work.",
+    "ctaCalc": "Calculate Cost",
+    "ctaCall": "Call Us",
+    "benefits": {
+      "reliable_title": "Reliable",
+      "reliable_desc": "Quality assurance",
+      "clean_title": "Clean",
+      "clean_desc": "Deep cleaning",
+      "fast_title": "Fast",
+      "fast_desc": "1-hour dispatch",
+      "safe_title": "Safe",
+      "safe_desc": "Contract & receipts"
+    }
+  },
+  "advantages": {
+    "item_01": {
+      "title": "KARCHER TECHNOLOGIES",
+      "text": "Industrial extractors, steam cleaners, and orbital machines for flawless results."
+    },
+    "item_02": {
+      "title": "ECO-STANDARD CLEAN",
+      "text": "Hypoallergenic European chemicals, absolutely safe for children, textiles, and pets."
+    },
+    "item_03": {
+      "title": "STAFF CLEANERS",
+      "text": "Only experienced specialists who have passed internal certification for safety and service standards."
+    },
+    "item_04": {
+      "title": "ABSOLUTE GUARANTEE",
+      "text": "Financial liability under the contract. If you find any flaw, we will fix it completely free of charge."
+    }
+  },
+  "pricing": {
+    "packages": {
+      "STANDARD": {
+        "title": "Standard Cleaning",
+        "hint": "from 150 ₾",
+        "features": [
+          "Standard cleaning",
+          "Professional Karcher equipment",
+          "Contract and receipts"
+        ]
+      },
+      "GENERAL": {
+        "title": "Deep Cleaning",
+        "hint": "from 230 ₾",
+        "features": [
+          "Deep cleaning",
+          "Professional Karcher equipment",
+          "Contract and receipts"
+        ]
+      },
+      "PREMIUM": {
+        "title": "Deep + Windows",
+        "hint": "from 280 ₾",
+        "features": [
+          "Deep + Windows",
+          "Professional Karcher equipment",
+          "Contract and receipts"
+        ]
+      },
+      "RENOVATION": {
+        "title": "Post-Construction",
+        "hint": "from 280 ₾",
+        "features": [
+          "Post-Construction",
+          "Professional Karcher equipment",
+          "Contract and receipts"
+        ]
+      }
+    },
+    "options": {
+      "WINDOWS": "Window washing",
+      "UPHOLSTERY": "Upholstery cleaning",
+      "BALCONY": "Balcony or loggia",
+      "DISINFECTION": "Additional disinfection"
+    }
+  },
+  "calculator": {
+    "badge": "Transparent Calculation",
+    "title": "Calculate Cleaning Cost",
+    "description": "Select a package, area, and additional options. The final amount will appear instantly — without calls or waiting.",
+    "packages": {
+      "title": "Cleaning Type"
+    },
+    "area": {
+      "label": "Room Area",
+      "unit": "m²",
+      "minLimit": "m² and less",
+      "maxLimit": "m² and more"
+    },
+    "options": {
+      "title": "Additional Options"
+    },
+    "estimate": {
+      "title": "Estimated Cost",
+      "emptyOptions": "—",
+      "optionsTitle": "Additional Options",
+      "orderButton": "Order Now",
+      "currencyUnit": "₾",
+      "areaUnit": "m²"
+    }
+  },
+  "standards": {
+    "section_title_part1": "WHY ",
+    "section_title_accent": "CHOOSE OUR SERVICE",
+    "item_01": {
+      "title": "Team Deployment",
+      "text": "At least 2 certified specialists on-site. Seamless teamwork in pairs for maximum efficiency and speed."
+    },
+    "item_02": {
+      "title": "Time Saving",
+      "text": "For properties over 100 m², we dispatch a 4-person team. Perfect cleanliness with no delays."
+    },
+    "item_03": {
+      "title": "Official Contract",
+      "text": "We operate completely legally. We lock in the final cost before cleaning starts and provide a receipt."
+    }
+  },
+  "mobile_team": {
+    "badge": "FULL AUTONOMY",
+    "title": "MOBILE CLEANING CREW",
+    "description": "Everything needed arrives with us. Each vehicle is a fully equipped workstation with professional machinery and certified eco-chemicals.",
+    "items": {
+      "equipment": {
+        "title": "PROFESSIONAL EQUIPMENT",
+        "text": "Vacuum cleaners, steam generators, and Karcher extractors for all flooring types are onboard every vehicle."
+      },
+      "chemicals": {
+        "title": "COMPLETE CHEMICAL KIT",
+        "text": "Certified detergents for any surface — ranging from delicate treatment to deep stain removal."
+      },
+      "inventory": {
+        "title": "ALL REQUIRED INVENTORY",
+        "text": "Mops, microfiber cloths, brushes, and consumables are already with us. You do not need to buy or prepare anything for our arrival."
+      }
+    }
+  },
+  "pricelist": {
+    "badge": "PRICE LIST",
+    "title_part1": "CLEANING ",
+    "title_accent": "RATES",
+    "description": "Transparent pricing with no hidden fees. Fixed cost locked in the contract before cleaning starts.",
+    "popularBadge": "Popular choice",
+    "priceFrom": "from",
+    "showMeters": "View pricing per m²",
+    "selectButton": "Select Package",
+    "unitArea": "m²"
+  },
+  "form": {
+    "badge": "Fast Booking",
+    "title": "Book a Cleaning in 1 Minute",
+    "description": "Leave your contacts — we will instantly calculate the final cost and get in touch with you.",
+    "labelName": "Your Name",
+    "labelPhone": "Phone Number",
+    "labelType": "Cleaning Type",
+    "labelArea": "Room Area",
+    "placeholderName": "Alexander",
+    "addedServices": "Added services:",
+    "errorNameEmpty": "Please enter your name",
+    "errorNameShort": "Name is too short",
+    "errorPhoneInvalid": "Please check your phone number",
+    "unitArea": "m²",
+    "totalLabel": "Total to pay:",
+    "orderButton": "Book Cleaning",
+    "success": {
+      "badge": "Application sent",
+      "thanks": "Thank you, {name}!",
+      "description": "We have accepted the order for the amount of <total></total> ₾. We will contact you at <phone></phone> shortly to confirm details.",
+      "resetButton": "Submit another application"
+    }
+  }
+}
