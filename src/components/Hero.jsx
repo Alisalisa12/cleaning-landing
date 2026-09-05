@@ -90,7 +90,15 @@ export default function Hero() {
 
             {/* КОМПЛЕКТ КНОПОК */}
             <div className="flex flex-col sm:flex-row items-center gap-3 w-full">
-              <button className="w-full sm:w-56 bg-accent border border-transparent text-black font-black text-xs md:text-sm h-12 rounded-lg transition-all duration-200 hover:bg-accent/90 active:scale-[0.98] flex items-center justify-center text-center whitespace-nowrap shadow-md shadow-accent/5 cursor-pointer">
+              <button
+                type="button"
+                onClick={() =>
+                  document
+                    .getElementById("calculator")
+                    ?.scrollIntoView({ behavior: "smooth" })
+                }
+                className="w-full sm:w-56 bg-accent border border-transparent text-black font-black text-xs md:text-sm h-12 rounded-lg transition-all duration-200 hover:bg-accent/90 active:scale-[0.98] flex items-center justify-center text-center whitespace-nowrap shadow-md shadow-accent/5 cursor-pointer"
+              >
                 <span>{t("ctaCalc")}</span>
               </button>
 
@@ -98,9 +106,8 @@ export default function Hero() {
                 href="tel:+995595779997"
                 className="w-full sm:w-56 flex items-center justify-center gap-2.5 text-white bg-transparent border border-accent hover:border-accent/80 hover:bg-accent/[0.04] font-black text-xs md:text-sm h-12 rounded-lg transition-all duration-200 active:scale-[0.98] text-center whitespace-nowrap group"
               >
-                {/* ФИКС БАГА: xmlns="http://w3.org" изменен на валидный http://w3.org */}
                 <svg
-                  xmlns="http://w3.org"
+                  xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"

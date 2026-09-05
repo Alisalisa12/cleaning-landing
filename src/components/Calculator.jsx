@@ -31,7 +31,10 @@ export default function Calculator() {
   const selectedOptions = OPTIONS.filter((o) => options?.includes(o.id));
 
   return (
-    <section className="relative bg-[#0D0D0D] overflow-hidden select-none font-sans py-6 md:py-10">
+    <section
+      id="calculator"
+      className="relative bg-[#0D0D0D] overflow-hidden select-none font-sans py-6 md:py-10"
+    >
       {/* Декоративный фон — уменьшен под мобилки, чтобы не вылезал за границы экрана */}
       <div className="pointer-events-none absolute top-1/3 -left-24 sm:-left-48 w-[280px] sm:w-[500px] h-[280px] sm:h-[500px] bg-accent/5 rounded-full blur-[80px] sm:blur-[120px]" />
 

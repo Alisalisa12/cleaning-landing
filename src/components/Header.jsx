@@ -41,7 +41,7 @@ export default function Header() {
       <div className="bg-accent text-black text-[11px] md:text-xs w-full font-bold tracking-wide relative z-50 uppercase">
         <div className="max-w-7xl mx-auto px-4 md:px-8 py-2 flex items-center justify-center gap-2 text-center">
           <Image
-            src="/images/at-icons--lightning-bolt.svg"
+            src="/images/zap.svg"
             alt=""
             width={14}
             height={14}

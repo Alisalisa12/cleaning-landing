@@ -33,11 +33,6 @@ export default async function Home({ params }) {
         {/* Главный экран (Hero) — виден сразу, без задержки на анимацию */}
         <Hero />
 
-        {/* Интерактивный Калькулятор стоимости */}
-        <ScrollReveal>
-          <Calculator />
-        </ScrollReveal>
-
         {/* Преимущества компании */}
         <ScrollReveal>
           <Advantages />
@@ -51,6 +46,11 @@ export default async function Home({ params }) {
         {/* Мобильная версия блока команды */}
         <ScrollReveal>
           <MobileTeam />
+        </ScrollReveal>
+
+        {/* Интерактивный Калькулятор стоимости */}
+        <ScrollReveal>
+          <Calculator />
         </ScrollReveal>
 
         {/* Прайс-лист */}
