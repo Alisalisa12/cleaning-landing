@@ -56,3 +56,28 @@ body {
     transition: none;
   }
 }
+
+/* Кастомный скроллбар для класса .custom-scrollbar */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px !important;
+  height: 6px !important;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent !important; /* Делает дорожку полностью прозрачной */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: var(--color-border) !important; /* Использует ваш серый цвет границ #2a2a2a */
+  border-radius: 9999px !important;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: var(--color-muted) !important; /* При наведении становится светлее #9a9a9a */
+}
+
+/* Поддержка браузера Firefox */
+.custom-scrollbar {
+  scrollbar-width: thin !important;
+  scrollbar-color: var(--color-border) transparent !important;
+}

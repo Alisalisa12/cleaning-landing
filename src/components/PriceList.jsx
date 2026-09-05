@@ -110,7 +110,7 @@ export default function PriceList() {
                       ↓
                     </span>
                   </summary>
-                  <div className="p-3 bg-neutral-950/40 border-t border-neutral-900/60 flex flex-col gap-2 max-h-48 overflow-y-auto custom-scrollbar [webkit-overflow-scrolling:touch]">
+                  <div className="p-3 bg-neutral-950/40 border-t border-neutral-900/60 flex flex-col gap-2 max-h-48 overflow-y-auto custom-scrollbar [-webkit-overflow-scrolling:touch]">
                     {tableAreas.map((areaVal) => (
                       <div
                         key={areaVal}
