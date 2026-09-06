@@ -35,9 +35,10 @@ const seoByLocale = {
 export async function generateMetadata({ params }) {
   const { locale } = await params;
   const seo = seoByLocale[locale] || seoByLocale.ka;
-  const baseUrl = "https://your-domain.ge"; // заменить на реальный домен перед деплоем
+  const baseUrl = "https://cleaningtechnology.ge"; // заменить на реальный домен перед деплоем
 
   return {
+    metadataBase: new URL(baseUrl),
     title: seo.title,
     description: seo.description,
     alternates: {
@@ -47,6 +48,29 @@ export async function generateMetadata({ params }) {
         ru: `${baseUrl}/ru`,
         en: `${baseUrl}/en`,
       },
+    },
+    openGraph: {
+      title: seo.title,
+      description: seo.description,
+      url: `${baseUrl}/${locale}`,
+      siteName: "Cleaning Technology",
+      images: [
+        {
+          url: "/images/image.jpg",
+          width: 1200,
+          height: 1200,
+          alt: "Cleaning Technology",
+        },
+      ],
+      locale,
+      type: "website",
+    },
+    // Превью ссылки в Twitter/X
+    twitter: {
+      card: "summary_large_image",
+      title: seo.title,
+      description: seo.description,
+      images: ["/images/image.jpg"],
     },
   };
 }
